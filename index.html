@@ -1,9 +1,15 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL='page1.html'" />
-  </head>
-  <body>
-    <p>Redirecting to <a href="page1.html">page1.html</a>...</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0; url=page1.html">
+  <script>
+    // Fallback in case meta refresh fails
+    window.location.href = "page1.html";
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="page1.html">page1.html</a>...</p>
+</body>
 </html>
