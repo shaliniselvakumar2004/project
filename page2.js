@@ -69,7 +69,7 @@ document.getElementById("By").onclick = function() {
 
 async function menuju(){
   await swals.fire('Yay!', 'And here comes another birthday surprise for you!', 'success');
-  window.location = "/page1.html";
+  window.location = "page1.html";
 }
 
 vketik1 = kalimat.innerHTML;
@@ -241,3 +241,4 @@ function menuju() {
   document.getElementById("surpriseEnd").style.display = "block";
 
 }
+
